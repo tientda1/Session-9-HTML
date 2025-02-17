@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 5px;
+    display: flex;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    gap: 5px;
+    width: 700px;
+    justify-content: space-between;
+    align-content: center;
+}
+div{
+    background-color: #800080;
+    color: white;
+    width: 110px;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
